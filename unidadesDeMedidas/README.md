@@ -6,5 +6,5 @@
 ## Prática
 
 * como conhecer e estudar os valores na documentação?
-    * <color> <length>
+    * `<color>` `<length>` 
 * os termos podem variar. `values` ou `data types`
