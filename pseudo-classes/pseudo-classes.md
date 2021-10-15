@@ -31,6 +31,37 @@ ul li:first-child {
 }
 ~~~
 
+## `:nth-of-type()`
+
+### HTML
+~~~html
+<article>
+  <h3>Gratidão</h3>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque tempore, impedit officia accusamus quam error quibusdam autem praesentium sed, vel atque, quas iure. Officiis, ut quibusdam aut incidunt itaque voluptas.</p>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque tempore, impedit officia accusamus quam error quibusdam autem praesentium sed, vel atque, quas iure. Officiis, ut quibusdam aut incidunt itaque voluptas.</p>
+  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque tempore, impedit officia accusamus quam error quibusdam autem praesentium sed, vel atque, quas iure. Officiis, ut quibusdam aut incidunt itaque voluptas.</p>
+  
+</article>
+~~~
+### CSS
+~~~css
+article p:nth-of-type(2) {
+  font-weight: bold;
+  font-size: 18px;
+}
+~~~~
+
+## `:nth-child`
+
+### Nesse caso ele só seleciona o segundo elemento `<p>` filho de `<article>`
+
+## CSS
+~~~css
+article p:nth-child(2) {
+  font-weight: bold;
+  font-size: 18px;
+}
+~~~
 
 ## Ações do usuário
 
