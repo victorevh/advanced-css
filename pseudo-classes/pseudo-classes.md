@@ -63,5 +63,69 @@ article p:nth-child(2) {
 }
 ~~~
 
+## `:nth-child()`  (odd e even)
+### Filho sim filho não (impar ou par)
+
+### HTML
+~~~html
+<ul>
+  <li>Gratidão</li>
+  <li>Esperança</li>
+  <li>Fé</li>
+  <li>Gratidão</li>
+  <li>Esperança</li>
+  <li>Fé</li>
+</ul>
+~~~
+
+### CSS
+~~~CSS
+ul li:nth-child(even) {
+  color: gray;
+  background: blue;
+}
+~~~
 ## Ações do usuário
+
+* :hover
+* :focus
+
+### HTML
+~~~html
+<a href="#">Clique aqui</a>
+<input type="text">
+~~~
+
+### CSS
+~~~css
+a:hover {
+  color: red;
+}
+
+input:focus {
+  border-color: blue;
+  outline: ;
+}
+~~~
+
+## Atributos
+
+* :disabled
+* :required
+
+### HTML
+~~~html
+<a href="#">Clique aqui</a>
+<input type="text" disabled>
+~~~
+
+### CSS
+~~~css
+input:disabled {
+  background-color: red;
+}
+
+## Referência
+
+https://developer.mozilla.org/en-US/docs/web/CSS/Pseudo-classes
 
