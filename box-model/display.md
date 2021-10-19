@@ -1,4 +1,4 @@
-## display: block vs display: inline
+## `display: block` vs `display: inline`
 
 - Como as caixas se comportam em relação às outras caixas
 - Comportamento externo das caixas
