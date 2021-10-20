@@ -5,7 +5,7 @@
   
 **block** | **inline**
 ----------|------------
-Ocupa toda a linha, colocando o próximo elemento abaixo desse | Elemento ao lado do outro
+Ocupa toda a linha, colocando o próximo element o abaixo desse | Elemento ao lado do outro
 `width` e `height` são respeitados | `width` e `height` não funcionam
 `padding`, `margin`, `border` irão funcionar normalmente. | Somente valores horizontais de `margin`, `padding` e `border`
 
