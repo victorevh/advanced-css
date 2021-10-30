@@ -15,7 +15,7 @@ Controlar onde, na página o elemento irá ficar, alterando o fluxo normal dos e
 
 ## `static`
 
-* O padrão é o static seguindo o fluxo normal, ficando um abaixo do outro
+* O padrão é o static seguindo o fluxo normal, ficando um abaixo do outro.
 
 ## `relative`
 
