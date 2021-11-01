@@ -35,3 +35,9 @@ Controlar onde, na página o elemento irá ficar, alterando o fluxo normal dos e
 ## `fixed`
 
 * Fixa o elemento na página
+
+## Element Stacking
+
+* Usa o `z-index` para atribuir as camadas aos elementos
+  
+  ![Exemplo propriedade z-index](./example/../examples/z-index.png)
