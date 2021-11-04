@@ -27,6 +27,10 @@ div {
     border: 7px dashed red;
 
     background-color: rgb(55, 100, 50);
+
+    /* Gradient */
+
+    background: linear-gradient(270deg, red, yellow, green);  /* radial-gradient */
 }
 ~~~
 
@@ -54,6 +58,11 @@ div {
   
 * Origem do fundo
   * `border-box | content-box | padding-box`
+
+## `background-attachment`
+
+* Escolhe se o fundo vai permitir o scroll ou se vai ficar fixo
+  * `fixed | scroll`
 ### Exemplos
 
 ~~~css
@@ -62,11 +71,28 @@ div {
     border: 7px dashed red;
     padding: 16px
 
-    background-image: url(https://)); 
+    background-image: url(https://); 
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: 50% 50%; /* Altura vs largura */
     background-origin: content-box;
     background-clip: content-box;
+    background-attachment: scroll;
+
+    /* shorthand */
+
+    background: rgb(55, 100, 50) url(https://)  no-repeat right top / 50px border-box content-box scroll;
+
+
+}
+~~~
+
+## Múltiplos backgrounds
+
+* Também é possivel utilizar múltiplos backgrounds
+
+~~~css
+main {
+  background: radial-gradient(rgba(255,255,255,0), rgba(255,0,0, 0.2)), url(https://) no-repeat right top / 50px border-box content-box fixed;
 }
 ~~~
