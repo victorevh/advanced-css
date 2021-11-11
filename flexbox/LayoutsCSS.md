@@ -30,3 +30,28 @@ Ou Flow Layout é a maneira que os elementos `block` e `inline` ficam na página
 ## Tabless
 
 Uso das propriedades `float`, `clean` para que os elemnentos possam mudar de posição na tela.
+
+~~~html
+<div style="float: left">
+    Esquerda
+</div>
+
+<div style="float: right">
+    Direita
+</div>
+
+<div style="clear:both">
+    Normal Flow
+</div>
+~~~
+
+## Flexbox
+
+A caixa se torna flex, fazendo com que os elementos internos possam receber melhor
+
+- Alinhamento
+- Ordenação
+- Tamanhos Flexiveis 
+
+![Flexbox](./assets/flebox.png)
+
