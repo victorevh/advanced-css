@@ -24,3 +24,21 @@
 * A capacidade do item encolher dentro do container.
 
 ![flex-shrink](assets/flex-shrink.png)
+
+## `flex` shorthand
+
+* shorthand
+* `flex-grow` | `flex-shrink` | `flex-basis` (segue essa ordem no shorthand)
+* podem ter 1, 2 ou 3 valores
+
+![flex-shorthand](./assets/flex-shorthand.png)
+
+## Alterando tamanho de mútiplos itens
+
+![mutiply-items](./assets/mutiply-items.png)
+
+## `order`
+
+* Define visualmente as ordens dos elementos (não recomendado devido a acessibilidade)
+
+![order](assets/order.png)
